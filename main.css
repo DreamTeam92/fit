@@ -8024,8 +8024,11 @@ ul.elem-icon-list-items.elem-inline-items .elem-inline-item{
     }
 }
  
-h4 a {
+.service-link a{
     color: #fff
+}
+.service-link a:hover{
+    color: #1e1e1e
 }
     
     
