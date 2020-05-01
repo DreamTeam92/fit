@@ -8028,7 +8028,8 @@ ul.elem-icon-list-items.elem-inline-items .elem-inline-item{
     color: #fff
 }
 .service-link a:hover{
-    color: #1e1e1e
+    color: #fff;
+    opacity: .5
 }
     
     
