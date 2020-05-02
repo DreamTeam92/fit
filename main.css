@@ -8024,10 +8024,10 @@ ul.elem-icon-list-items.elem-inline-items .elem-inline-item{
     }
 }
  
-.service-link a{
+.service-txt a{
     color: #fff
 }
-.service-link a:hover{
+.service-txt a:hover{
     color: #fff;
     opacity: .5
 }
