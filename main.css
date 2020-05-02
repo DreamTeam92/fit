@@ -8025,10 +8025,10 @@ ul.elem-icon-list-items.elem-inline-items .elem-inline-item{
 }
  
 .service-txt a{
-    color: #fff
+    color: #000000
 }
 .service-txt a:hover{
-    color: #fff;
+    color: #000000;
     opacity: .5
 }
     
