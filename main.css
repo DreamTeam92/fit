@@ -8032,12 +8032,12 @@ h4.service-link a:hover{
     opacity: .5
 }
     
-.read a{
-    color: #000
+h4.read a{
+    color: #000000
 }
 
-.read a:hover{
-    color: #000;
+h4.read a:hover{
+    color: #000000;
     opacity: .5
 }
     
