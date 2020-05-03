@@ -1280,7 +1280,7 @@ div.ppt{
     z-index:0;
     width:100%;
     height:100%;
-    background:#f1576b
+    background:#505cc1
 }
 .bg-holder.float-right .split-color{
     position:absolute;
@@ -4005,7 +4005,7 @@ body .sm-clean a:hover,body .main-menu.sm-clean .sub-menu li a:hover,body .sm-cl
     display:none
 }
 .section{
-    background-color:#1e1e1e;
+    background-color:#5067c1;
     overflow:hidden
 }
 .section h2.entry-title,.page-template-default.page .section h1.entry-title{
