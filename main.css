@@ -1764,7 +1764,7 @@ a.button:hover{
     display:block
 }
 .close-icon{
-    background-image:url(//demo.functionbetter.com/fit-wp/demo-1/wp-content/plugins/functionbetter-shortcode/css/../images/close-left-arrow.png);
+    background-image:url(images/icons/closeLeftArrow.png);
     background-repeat:no-repeat;
     width:70px;
     height:70px;
