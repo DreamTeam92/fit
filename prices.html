@@ -14,23 +14,10 @@
 				<link rel="icon" href="images/favicon/01favicon192x192.png" sizes="192x192" />
 				<link rel="apple-touch-icon-precomposed" href="images/favicon/01favicon180x180.png" />
 				<meta name="msapplication-TileImage" content="images/favicon/01favicon270x270.png" />
-		<style>
-table.price {
-  font-family: arial, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
-}
-
-td.price, th.price {
-  border: 1px solid #dddddd;
-  text-align: left;
-  padding: 8px;
-}
-
-tr.price:nth-child(even) {
-  background-color: #dddddd;
-}
-</style>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	
 			</head>
 			<body class="post-template-default single single-post postid-82 single-format-standard chrome linux elem-default">
 				<div class="site-wrapper">
@@ -92,29 +79,37 @@ tr.price:nth-child(even) {
                         <li>1 Pt session where I going to show you all the exercises</li>	
 										</ul>
 									    </div>
-                      <table class="price">
-                      <caption class"price">Plan Prices</caption>
-                          <tr class="price">
-                              <td class="price">Nutritional Advice (consultation + nutrition plan)</td>
-                              <td class="price">£250</td>
-                              <td class="fit-buy-button price"><a href="index.html">Buy Now</a></td>
-                          </tr>
-                          <tr class="price">
-                              <td class="price">4 Week Plan (including 1 pt session</td>
-                              <td class="price">£150</td>
-                              <td class="fit-buy-button price"><a href="index.html">Buy Now</a></td>
-                          </tr>
-                          <tr class="price">
-                              <td class="price">8 Week Plan (including 1 pt session)</td>
-                              <td class="price">£200</td>
-                              <td class="fit-buy-button price"><a href="index.html">Buy Now</a></td>
-                          </tr>
-                          <tr class="price">
-                              <td class="price">8 Week Plan (including 2 pt session)</td>
-                              <td class="price">£300</td>
-                              <td class="fit-buy-button price"><a href="index.html">Buy Now</a></td>
-                          </tr>
-                      </table>
+                    <div class="container">
+  <h2>Basic Table</h2>
+  <p>The .table class adds basic styling (light padding and only horizontal dividers) to a table:</p>            
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Email</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>John</td>
+        <td>Doe</td>
+        <td>john@example.com</td>
+      </tr>
+      <tr>
+        <td>Mary</td>
+        <td>Moe</td>
+        <td>mary@example.com</td>
+      </tr>
+      <tr>
+        <td>July</td>
+        <td>Dooley</td>
+        <td>july@example.com</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
 									</div>
 									<div class="clear"></div>
 								</div>
