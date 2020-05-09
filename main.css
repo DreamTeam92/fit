@@ -8073,13 +8073,20 @@ table {
 
 
 th {
-    font-size: 22px
+    font-size: 22px;
+    border-top: none
 }
 
 td {
     font-size: 17px
 }
-    
+ .tbl-break {
+     border: none
+}
+container h1 {
+    color: #000
+}
+     
     
     
     
