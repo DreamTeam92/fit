@@ -8068,9 +8068,8 @@ table {
     padding: 8px;
     line-height: 1.42857143;
     vertical-align: middle;
-    border-top: 1px solid #ddd;
+    border-top: none    /*  1px solid #ddd; */
 }
-
 
 th.hd {
     font-size: 22px;
