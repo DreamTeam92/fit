@@ -8072,7 +8072,7 @@ table {
 }
 
 
-th {
+th.hd {
     font-size: 22px;
     border-top: hidden
 }
