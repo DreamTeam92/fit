@@ -56,11 +56,13 @@
     background-size:32px 32px;
     background-position:center center
 }
+/*
 @media screen and (max-width: 1020px){
     .fit-switcher-holder{
         display:none
     }
 }
+*/
 .demo-switcher{
     background-image:url(images/liveStreamClasses.png);
     background-repeat:no-repeat;
