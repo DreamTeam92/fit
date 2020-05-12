@@ -2127,10 +2127,10 @@ a.video-popup-holder:hover:after{
     opacity:0;
     transition:opacity .3s ease-in-out
 }
-#meet-me-wrapper{
+#meet-wrapper{
     overflow:hidden
 }
-.meet-me-text-holder{
+.meet-text-holder{
     color:#fff;
     position:absolute;
     top:50%;
@@ -2142,46 +2142,46 @@ a.video-popup-holder:hover:after{
     transition:all .3s ease;
     text-align:center
 }
-.meet-me-title{
+.meet-title{
     font-size:18px;
     line-height:30px;
     margin-bottom:0;
     font-weight:700;
     color:#fff
 }
-.meet-me-desc{
+.meet-desc{
     font-size:14px;
     line-height:22px;
     color:#fff;
     letter-spacing:2px
 }
-.grid-item a.item-link:hover:after,.grid-item a.item-link:hover .meet-me-text-holder{
+.grid-item a.item-link:hover:after,.grid-item a.item-link:hover .meet-text-holder{
     opacity:1
 }
-.more-posts-meet-me-holder{
+.more-posts-meet-holder{
     min-height:1px;
     margin-top:-1px;
     margin-bottom:50px
 }
-.elem-widget .more-posts-meet-me-holder{
+.elem-widget .more-posts-meet-holder{
     margin-bottom:0
 }
-.no-padding .more-posts-meet-me-holder{
+.no-padding .more-posts-meet-holder{
     margin-bottom:0
 }
-.site-wrapper .more-posts-meet-me-holder img{
+.site-wrapper .more-posts-meet-holder img{
     width:70px;
     height:70px;
     display:inline-block;
     vertical-align:middle
 }
-.more-posts-meet-me-holder.hide{
+.more-posts-meet-holder.hide{
     visibility:hidden;
     opacity:0;
     pointer-events:none;
     cursor:default
 }
-.more-posts-meet-me,.no-more-posts-meet-me,.more-posts-meet-me-loading{
+.more-posts-meet,.no-more-posts-meet,.more-posts-meet-loading{
     color:#fff;
     background-color:#000;
     padding:17px 0;
@@ -2190,67 +2190,67 @@ a.video-popup-holder:hover:after{
     margin-bottom:0;
     line-height:0
 }
-.more-posts-meet-me-loading img{
+.more-posts-meet-loading img{
     -webkit-animation:spin 4s linear infinite;
     -moz-animation:spin 4s linear infinite;
     animation:spin 4s linear infinite
 }
-.more-posts-meet-me{
+.more-posts-meet{
     cursor:pointer
 }
-.more-posts-meet-me:hover{
+.more-posts-meet:hover{
     opacity:.8!important
 }
-.no-more-posts-meet-me,.more-posts-meet-me-loading{
+.no-more-posts-meet,.more-posts-meet-loading{
     display:none
 }
-.no-more-posts-meet-me img{
+.no-more-posts-meet img{
     transform:rotate(45deg)
 }
-.meet-me-load-content-holder{
+.meet-load-content-holder{
     opacity:0;
     transform:translateY(70px);
     transition:all .5s ease;
     max-width:100%
 }
-.no-padding .meet-me-load-content-holder{
+.no-padding .meet-load-content-holder{
     width:690px
 }
-.section-content-holder.float-right .meet-me-load-content-holder{
+.section-content-holder.float-right .meet-load-content-holder{
     margin-right:0;
     margin-left:auto
 }
-.section-content-holder.float-left .meet-me-load-content-holder{
+.section-content-holder.float-left .meet-load-content-holder{
     margin-right:auto;
     margin-left:0
 }
-.meet-me-load-content-holder.show{
+.meet-load-content-holder.show{
     transform:translateY(0);
     opacity:1
 }
-.meet-me-load-content-holder.show.viceversa{
+.meet-load-content-holder.show.viceversa{
     opacity:0;
     transform:translateY(70px)
 }
-.section.no-padding .meet-me-content-wrapper{
+.section.no-padding .meet-content-wrapper{
     margin:75px 0
 }
-.meet-me-content-wrapper{
+.meet-content-wrapper{
     display:none
 }
-.meet-me-content-wrapper.show{
+.meet-content-wrapper.show{
     display:block
 }
-#meet-me-grid{
+#meet-grid{
     transition:all .5s ease;
     opacity:1;
     transform:translateY(0px)
 }
-#meet-me-grid.hide{
+#meet-grid.hide{
     opacity:0;
     transform:translateY(70px)
 }
-.grid-item a.item-link.animate-plus:after,.ajax-meet-me.animate-plus .meet-me-text-holder{
+.grid-item a.item-link.animate-plus:after,.ajax-meet.animate-plus .meet-text-holder{
     opacity:1
 }
 @-moz-keyframes spin{
@@ -2351,7 +2351,7 @@ body .social a:hover{
 .pricing-button:hover{
     opacity:.5
 }
-.meet-me-item-wrapper{
+.meet-item-wrapper{
     width:800px;
     margin-top:100px;
     margin-bottom:50px;
@@ -2481,7 +2481,7 @@ li.timeline-event:hover .timeline-event-date{
         margin-left:auto!important;
         margin-right:auto!important
     }
-    .section.no-padding #meet-me-wrapper,.section.no-padding #team-holder{
+    .section.no-padding #meet-wrapper,.section.no-padding #team-holder{
         margin-top:20px
     }
     .info-text{
@@ -2490,7 +2490,7 @@ li.timeline-event:hover .timeline-event-date{
     .info-text br{
         display:none
     }
-    .meet-me-load-content-holder.show,.team-load-content-holder.show{
+    .meet-load-content-holder.show,.team-load-content-holder.show{
         margin-left:auto!important;
         margin-right:auto!important
     }
