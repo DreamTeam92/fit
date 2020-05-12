@@ -2127,10 +2127,10 @@ a.video-popup-holder:hover:after{
     opacity:0;
     transition:opacity .3s ease-in-out
 }
-#portfolio-wrapper{
+#meet-me-wrapper{
     overflow:hidden
 }
-.portfolio-text-holder{
+.meet-me-text-holder{
     color:#fff;
     position:absolute;
     top:50%;
@@ -2142,46 +2142,46 @@ a.video-popup-holder:hover:after{
     transition:all .3s ease;
     text-align:center
 }
-.portfolio-title{
+.meet-me-title{
     font-size:18px;
     line-height:30px;
     margin-bottom:0;
     font-weight:700;
     color:#fff
 }
-.portfolio-desc{
+.meet-me-desc{
     font-size:14px;
     line-height:22px;
     color:#fff;
     letter-spacing:2px
 }
-.grid-item a.item-link:hover:after,.grid-item a.item-link:hover .portfolio-text-holder{
+.grid-item a.item-link:hover:after,.grid-item a.item-link:hover .meet-me-text-holder{
     opacity:1
 }
-.more-posts-portfolio-holder{
+.more-posts-meet-me-holder{
     min-height:1px;
     margin-top:-1px;
     margin-bottom:50px
 }
-.elem-widget .more-posts-portfolio-holder{
+.elem-widget .more-posts-meet-me-holder{
     margin-bottom:0
 }
-.no-padding .more-posts-portfolio-holder{
+.no-padding .more-posts-meet-me-holder{
     margin-bottom:0
 }
-.site-wrapper .more-posts-portfolio-holder img{
+.site-wrapper .more-posts-meet-me-holder img{
     width:70px;
     height:70px;
     display:inline-block;
     vertical-align:middle
 }
-.more-posts-portfolio-holder.hide{
+.more-posts-meet-me-holder.hide{
     visibility:hidden;
     opacity:0;
     pointer-events:none;
     cursor:default
 }
-.more-posts-portfolio,.no-more-posts-portfolio,.more-posts-portfolio-loading{
+.more-posts-meet-me,.no-more-posts-meet-me,.more-posts-meet-me-loading{
     color:#fff;
     background-color:#000;
     padding:17px 0;
@@ -2190,67 +2190,67 @@ a.video-popup-holder:hover:after{
     margin-bottom:0;
     line-height:0
 }
-.more-posts-portfolio-loading img{
+.more-posts-meet-me-loading img{
     -webkit-animation:spin 4s linear infinite;
     -moz-animation:spin 4s linear infinite;
     animation:spin 4s linear infinite
 }
-.more-posts-portfolio{
+.more-posts-meet-me{
     cursor:pointer
 }
-.more-posts-portfolio:hover{
+.more-posts-meet-me:hover{
     opacity:.8!important
 }
-.no-more-posts-portfolio,.more-posts-portfolio-loading{
+.no-more-posts-meet-me,.more-posts-meet-me-loading{
     display:none
 }
-.no-more-posts-portfolio img{
+.no-more-posts-meet-me img{
     transform:rotate(45deg)
 }
-.portfolio-load-content-holder{
+.meet-me-load-content-holder{
     opacity:0;
     transform:translateY(70px);
     transition:all .5s ease;
     max-width:100%
 }
-.no-padding .portfolio-load-content-holder{
+.no-padding .meet-me-load-content-holder{
     width:690px
 }
-.section-content-holder.float-right .portfolio-load-content-holder{
+.section-content-holder.float-right .meet-me-load-content-holder{
     margin-right:0;
     margin-left:auto
 }
-.section-content-holder.float-left .portfolio-load-content-holder{
+.section-content-holder.float-left .meet-me-load-content-holder{
     margin-right:auto;
     margin-left:0
 }
-.portfolio-load-content-holder.show{
+.meet-me-load-content-holder.show{
     transform:translateY(0);
     opacity:1
 }
-.portfolio-load-content-holder.show.viceversa{
+.meet-me-load-content-holder.show.viceversa{
     opacity:0;
     transform:translateY(70px)
 }
-.section.no-padding .portfolio-content-wrapper{
+.section.no-padding .meet-me-content-wrapper{
     margin:75px 0
 }
-.portfolio-content-wrapper{
+.meet-me-content-wrapper{
     display:none
 }
-.portfolio-content-wrapper.show{
+.meet-me-content-wrapper.show{
     display:block
 }
-#portfolio-grid{
+#meet-me-grid{
     transition:all .5s ease;
     opacity:1;
     transform:translateY(0px)
 }
-#portfolio-grid.hide{
+#meet-me-grid.hide{
     opacity:0;
     transform:translateY(70px)
 }
-.grid-item a.item-link.animate-plus:after,.ajax-portfolio.animate-plus .portfolio-text-holder{
+.grid-item a.item-link.animate-plus:after,.ajax-meet-me.animate-plus .meet-me-text-holder{
     opacity:1
 }
 @-moz-keyframes spin{
@@ -2351,7 +2351,7 @@ body .social a:hover{
 .pricing-button:hover{
     opacity:.5
 }
-.portfolio-item-wrapper{
+.meet-me-item-wrapper{
     width:800px;
     margin-top:100px;
     margin-bottom:50px;
@@ -2481,7 +2481,7 @@ li.timeline-event:hover .timeline-event-date{
         margin-left:auto!important;
         margin-right:auto!important
     }
-    .section.no-padding #portfolio-wrapper,.section.no-padding #team-holder{
+    .section.no-padding #meet-me-wrapper,.section.no-padding #team-holder{
         margin-top:20px
     }
     .info-text{
@@ -2490,7 +2490,7 @@ li.timeline-event:hover .timeline-event-date{
     .info-text br{
         display:none
     }
-    .portfolio-load-content-holder.show,.team-load-content-holder.show{
+    .meet-me-load-content-holder.show,.team-load-content-holder.show{
         margin-left:auto!important;
         margin-right:auto!important
     }
@@ -8093,4 +8093,5 @@ h2.tbl {
      
     
     
-
+    
+    
