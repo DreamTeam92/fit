@@ -63,7 +63,7 @@
     }
 }
 */
-.demo-switcher{
+.live-switcher{
     background-image:url(images/liveStreamClasses.png);
     background-repeat:no-repeat;
     width:300px;
@@ -74,7 +74,7 @@
     margin-bottom:30px;
     position:relative
 }
-.demo-switcher:before{
+.live-switcher:before{
     content:"";
     position:absolute;
     top:0;
@@ -85,10 +85,10 @@
     opacity:0;
     transition:.3s
 }
-.demo-switcher:hover:before,.demo-switcher:hover span{
+.live-switcher:hover:before,.live-switcher:hover span{
     opacity:1
 }
-.demo-switcher span{
+.live-switcher span{
     position:absolute;
     top:50%;
     left:50%;
@@ -99,29 +99,29 @@
     color:#fff
 }
 /*
-.demo-switcher-8 .demo-switcher{
+.live-switcher-8 .live-switcher{
     background-position:-1890px 0
 }
-.demo-switcher-7 .demo-switcher{
+.live-switcher-7 .live-switcher{
     background-position:-1620px 0
 }
-.demo-switcher-6 .demo-switcher{
+.live-switcher-6 .live-switcher{
     background-position:-1350px 0
 }
 */
-.demo-switcher-5 .demo-switcher{
+.live-switcher-5 .live-switcher{
     background-position:-1200px 0
 }
-.demo-switcher-4 .demo-switcher{
+.live-switcher-4 .live-switcher{
     background-position:-900px 0
 }
-.demo-switcher-3 .demo-switcher{
+.live-switcher-3 .live-switcher{
     background-position:-600px 0
 }
-.demo-switcher-2 .demo-switcher{
+.live-switcher-2 .live-switcher{
     background-position:-300px 0
 }
-li.demo-switcher-1{
+li.live-switcher-1{
     margin-bottom:30px
 }
 div.pp_default .pp_top,div.pp_default .pp_top .pp_middle,div.pp_default .pp_top .pp_left,div.pp_default .pp_top .pp_right,div.pp_default .pp_bottom,div.pp_default .pp_bottom .pp_left,div.pp_default .pp_bottom .pp_middle,div.pp_default .pp_bottom .pp_right{
@@ -137,32 +137,32 @@ div.pp_default .pp_content_container .pp_right{
     padding-right:13px
 }
 div.pp_default .pp_next:hover{
-    background:url(//demo.functionbetter.com/fit-wp/demo-1/wp-content/plugins/functionbetter-shortcode/css/../images/prettyPhoto/default/sprite_next.png) center right no-repeat;
+    background:url(//live.functionbetter.com/fit-wp/live-1/wp-content/plugins/functionbetter-shortcode/css/../images/prettyPhoto/default/sprite_next.png) center right no-repeat;
     cursor:pointer
 }
 div.pp_default .pp_previous:hover{
-    background:url(//demo.functionbetter.com/fit-wp/demo-1/wp-content/plugins/functionbetter-shortcode/css/../images/prettyPhoto/default/sprite_prev.png) center left no-repeat;
+    background:url(//live.functionbetter.com/fit-wp/live-1/wp-content/plugins/functionbetter-shortcode/css/../images/prettyPhoto/default/sprite_prev.png) center left no-repeat;
     cursor:pointer
 }
 div.pp_default .pp_expand{
-    background:url(//demo.functionbetter.com/fit-wp/demo-1/wp-content/plugins/functionbetter-shortcode/css/../images/prettyPhoto/default/sprite.png) 0 -29px no-repeat;
+    background:url(//live.functionbetter.com/fit-wp/live-1/wp-content/plugins/functionbetter-shortcode/css/../images/prettyPhoto/default/sprite.png) 0 -29px no-repeat;
     cursor:pointer;
     width:28px;
     height:28px;
     display:none!important
 }
 div.pp_default .pp_expand:hover{
-    background:url(//demo.functionbetter.com/fit-wp/demo-1/wp-content/plugins/functionbetter-shortcode/css/../images/prettyPhoto/default/sprite.png) 0 -56px no-repeat;
+    background:url(//live.functionbetter.com/fit-wp/live-1/wp-content/plugins/functionbetter-shortcode/css/../images/prettyPhoto/default/sprite.png) 0 -56px no-repeat;
     cursor:pointer
 }
 div.pp_default .pp_contract{
-    background:url(//demo.functionbetter.com/fit-wp/demo-1/wp-content/plugins/functionbetter-shortcode/css/../images/prettyPhoto/default/sprite.png) 0 -84px no-repeat;
+    background:url(//live.functionbetter.com/fit-wp/live-1/wp-content/plugins/functionbetter-shortcode/css/../images/prettyPhoto/default/sprite.png) 0 -84px no-repeat;
     cursor:pointer;
     width:28px;
     height:28px
 }
 div.pp_default .pp_contract:hover{
-    background:url(//demo.functionbetter.com/fit-wp/demo-1/wp-content/plugins/functionbetter-shortcode/css/../images/prettyPhoto/default/sprite.png) 0 -113px no-repeat;
+    background:url(//live.functionbetter.com/fit-wp/live-1/wp-content/plugins/functionbetter-shortcode/css/../images/prettyPhoto/default/sprite.png) 0 -113px no-repeat;
     cursor:pointer
 }
 div.pp_default .pp_close{
@@ -182,7 +182,7 @@ div.pp_default #pp_full_res .pp_inline{
     height:auto
 }
 div.pp_default .pp_gallery ul li a{
-    background:url(//demo.functionbetter.com/fit-wp/demo-1/wp-content/plugins/functionbetter-shortcode/css/../images/prettyPhoto/default/default_thumb.png) center center #f8f8f8;
+    background:url(//live.functionbetter.com/fit-wp/live-1/wp-content/plugins/functionbetter-shortcode/css/../images/prettyPhoto/default/default_thumb.png) center center #f8f8f8;
     border:1px solid #aaa
 }
 div.pp_default .pp_gallery ul li a:hover,div.pp_default .pp_gallery ul li.selected a{
@@ -196,7 +196,7 @@ div.pp_default .pp_gallery a.pp_arrow_previous,div.pp_default .pp_gallery a.pp_a
     left:auto
 }
 div.pp_default .pp_nav .pp_play,div.pp_default .pp_nav .pp_pause{
-    background:url(//demo.functionbetter.com/fit-wp/demo-1/wp-content/plugins/functionbetter-shortcode/css/../images/prettyPhoto/default/sprite.png) -51px 1px no-repeat;
+    background:url(//live.functionbetter.com/fit-wp/live-1/wp-content/plugins/functionbetter-shortcode/css/../images/prettyPhoto/default/sprite.png) -51px 1px no-repeat;
     height:30px;
     width:30px
 }
@@ -872,7 +872,7 @@ a.pp_arrow_previous,a.pp_arrow_next{
     padding:0
 }
 .pp_gallery li.default a{
-    background:url(//demo.functionbetter.com/fit-wp/demo-1/wp-content/plugins/functionbetter-shortcode/css/../images/prettyPhoto/facebook/default_thumbnail.gif) 0 0 no-repeat;
+    background:url(//live.functionbetter.com/fit-wp/live-1/wp-content/plugins/functionbetter-shortcode/css/../images/prettyPhoto/facebook/default_thumbnail.gif) 0 0 no-repeat;
     display:block;
     height:33px;
     width:50px
@@ -884,7 +884,7 @@ a.pp_arrow_previous,a.pp_arrow_next{
     margin-top:7px!important
 }
 a.pp_next{
-    background:url(//demo.functionbetter.com/fit-wp/demo-1/wp-content/plugins/functionbetter-shortcode/css/../images/prettyPhoto/light_rounded/btnNext.png) 10000px 10000px no-repeat;
+    background:url(//live.functionbetter.com/fit-wp/live-1/wp-content/plugins/functionbetter-shortcode/css/../images/prettyPhoto/light_rounded/btnNext.png) 10000px 10000px no-repeat;
     display:block;
     float:right;
     height:100%;
@@ -892,7 +892,7 @@ a.pp_next{
     width:49%
 }
 a.pp_previous{
-    background:url(//demo.functionbetter.com/fit-wp/demo-1/wp-content/plugins/functionbetter-shortcode/css/../images/prettyPhoto/light_rounded/btnNext.png) 10000px 10000px no-repeat;
+    background:url(//live.functionbetter.com/fit-wp/live-1/wp-content/plugins/functionbetter-shortcode/css/../images/prettyPhoto/light_rounded/btnNext.png) 10000px 10000px no-repeat;
     display:block;
     float:left;
     height:100%;
@@ -1136,7 +1136,7 @@ div.ppt{
     top:50%;
     margin-left:-40px;
     margin-top:-40px;
-    background:url(//demo.functionbetter.com/fit-wp/demo-1/wp-content/plugins/functionbetter-shortcode/css/owl.video.play.png) no-repeat;
+    background:url(//live.functionbetter.com/fit-wp/live-1/wp-content/plugins/functionbetter-shortcode/css/owl.video.play.png) no-repeat;
     cursor:pointer;
     z-index:1;
     -webkit-backface-visibility:hidden;
@@ -2015,14 +2015,14 @@ div.pp_default .pp_close{
     line-height:0
 }
 div.pp_default .pp_next:hover{
-    background:url(//demo.functionbetter.com/fit-wp/demo-1/wp-content/plugins/functionbetter-shortcode/css/../images/nav_right.png);
+    background:url(//live.functionbetter.com/fit-wp/live-1/wp-content/plugins/functionbetter-shortcode/css/../images/nav_right.png);
     cursor:pointer;
     background-repeat:no-repeat;
     background-position:95% 50%;
     background-size:20px
 }
 div.pp_default .pp_previous:hover{
-    background:url(//demo.functionbetter.com/fit-wp/demo-1/wp-content/plugins/functionbetter-shortcode/css/../images/nav_left.png);
+    background:url(//live.functionbetter.com/fit-wp/live-1/wp-content/plugins/functionbetter-shortcode/css/../images/nav_left.png);
     cursor:pointer;
     background-repeat:no-repeat;
     background-position:5% 50%;
@@ -2704,7 +2704,7 @@ span.wpcf7-list-item-label:before,span.wpcf7-list-item-label:after{
 div.wpcf7 .ajax-loader{
     visibility:hidden;
     display:inline-block;
-    background-image:url(//demo.functionbetter.com/fit-wp/demo-1/wp-content/plugins/contact-form-7/includes/css/../../images/ajax-loader.gif);
+    background-image:url(//live.functionbetter.com/fit-wp/live-1/wp-content/plugins/contact-form-7/includes/css/../../images/ajax-loader.gif);
     width:16px;
     height:16px;
     border:none;
@@ -3138,8 +3138,8 @@ a img.aligncenter{
 }
 @font-face{
     font-family:fontawesome;
-    src:url(//demo.functionbetter.com/fit-wp/demo-1/wp-content/plugins/elem/assets/lib/font-awesome/css/../fonts/fontawesome-webfont.eot?v=4.7.0);
-    src:url(//demo.functionbetter.com/fit-wp/demo-1/wp-content/plugins/elem/assets/lib/font-awesome/css/../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0) format("embedded-opentype"),url(//demo.functionbetter.com/fit-wp/demo-1/wp-content/plugins/elem/assets/lib/font-awesome/css/../fonts/fontawesome-webfont.woff2?v=4.7.0) format("woff2"),url(//demo.functionbetter.com/fit-wp/demo-1/wp-content/plugins/elem/assets/lib/font-awesome/css/../fonts/fontawesome-webfont.woff?v=4.7.0) format("woff"),url(//demo.functionbetter.com/fit-wp/demo-1/wp-content/plugins/elem/assets/lib/font-awesome/css/../fonts/fontawesome-webfont.ttf?v=4.7.0) format("truetype"),url(//demo.functionbetter.com/fit-wp/demo-1/wp-content/plugins/elem/assets/lib/font-awesome/css/../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular) format("svg");
+    src:url(//live.functionbetter.com/fit-wp/live-1/wp-content/plugins/elem/assets/lib/font-awesome/css/../fonts/fontawesome-webfont.eot?v=4.7.0);
+    src:url(//live.functionbetter.com/fit-wp/live-1/wp-content/plugins/elem/assets/lib/font-awesome/css/../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0) format("embedded-opentype"),url(//live.functionbetter.com/fit-wp/live-1/wp-content/plugins/elem/assets/lib/font-awesome/css/../fonts/fontawesome-webfont.woff2?v=4.7.0) format("woff2"),url(//live.functionbetter.com/fit-wp/live-1/wp-content/plugins/elem/assets/lib/font-awesome/css/../fonts/fontawesome-webfont.woff?v=4.7.0) format("woff"),url(//live.functionbetter.com/fit-wp/live-1/wp-content/plugins/elem/assets/lib/font-awesome/css/../fonts/fontawesome-webfont.ttf?v=4.7.0) format("truetype"),url(//live.functionbetter.com/fit-wp/live-1/wp-content/plugins/elem/assets/lib/font-awesome/css/../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular) format("svg");
     font-weight:400;
     font-style:normal
 }
@@ -4986,8 +4986,8 @@ ul#footer-sidebar li.widget select{
 }
 @font-face{
     font-family:eicons;
-    src:url(//demo.functionbetter.com/fit-wp/demo-1/wp-content/plugins/elem/assets/lib/eicons/css/../fonts/eicons.eot?5.6.2);
-    src:url(//demo.functionbetter.com/fit-wp/demo-1/wp-content/plugins/elem/assets/lib/eicons/css/../fonts/eicons.eot?5.6.2#iefix) format("embedded-opentype"),url(//demo.functionbetter.com/fit-wp/demo-1/wp-content/plugins/elem/assets/lib/eicons/css/../fonts/eicons.woff2?5.6.2) format("woff2"),url(//demo.functionbetter.com/fit-wp/demo-1/wp-content/plugins/elem/assets/lib/eicons/css/../fonts/eicons.woff?5.6.2) format("woff"),url(//demo.functionbetter.com/fit-wp/demo-1/wp-content/plugins/elem/assets/lib/eicons/css/../fonts/eicons.ttf?5.6.2) format("truetype"),url(//demo.functionbetter.com/fit-wp/demo-1/wp-content/plugins/elem/assets/lib/eicons/css/../fonts/eicons.svg?5.6.2#eicon) format("svg");
+    src:url(//live.functionbetter.com/fit-wp/live-1/wp-content/plugins/elem/assets/lib/eicons/css/../fonts/eicons.eot?5.6.2);
+    src:url(//live.functionbetter.com/fit-wp/live-1/wp-content/plugins/elem/assets/lib/eicons/css/../fonts/eicons.eot?5.6.2#iefix) format("embedded-opentype"),url(//live.functionbetter.com/fit-wp/live-1/wp-content/plugins/elem/assets/lib/eicons/css/../fonts/eicons.woff2?5.6.2) format("woff2"),url(//live.functionbetter.com/fit-wp/live-1/wp-content/plugins/elem/assets/lib/eicons/css/../fonts/eicons.woff?5.6.2) format("woff"),url(//live.functionbetter.com/fit-wp/live-1/wp-content/plugins/elem/assets/lib/eicons/css/../fonts/eicons.ttf?5.6.2) format("truetype"),url(//live.functionbetter.com/fit-wp/live-1/wp-content/plugins/elem/assets/lib/eicons/css/../fonts/eicons.svg?5.6.2#eicon) format("svg");
     font-weight:400;
     font-style:normal
 }
