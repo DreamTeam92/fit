@@ -1,4 +1,6 @@
-.fit-switcher-holder {
+n-height-default elem-section elem-top-section">
+                                        <div class="elem-container elem-column-gap-wider">
+                                            <div class="elem-row">.fit-switcher-holder {
   position: fixed;
   right: -340px;
   top: 0;
@@ -1988,10 +1990,10 @@ ul.milestones-holder {
 li.milestone {
   display: inline-block;
   position: relative;
-  margin: 0 50px;
+  margin: 0 20px;
 }
 li.milestone:before {
-  content: "/";
+  content: "";
   display: inline-block;
   position: absolute;
   right: -55px;
@@ -2015,7 +2017,7 @@ p.milestone-num {
 p.milestone-text {
   font-size: 22px;
   line-height: 30px;
-  color: #5b5b5b;
+  color: #000;
   max-width: 190px;
   margin: 0 auto;
 }
@@ -8369,6 +8371,10 @@ ul.elem-icon-list-items.elem-inline-items .elem-inline-item {
   }
   .elem-6 .elem-element.elem-element-a37 > .elem-element-populated {
     padding: 10px 0;
+    min-width: 330px;
+    max-width: 50vw;
+    margin-left: auto;
+    margin-right: auto;300px
   }
   .elem-6 .elem-element.elem-element-a39 {
     padding: 10px;
