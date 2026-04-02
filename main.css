@@ -8776,3 +8776,9 @@ h2.tbl {
 ul:empty + .empty-state {
   display: block;
 }
+
+.btn-red {
+  color: #fff;
+  background-color: #ff1e5e;
+  border-color: none;
+}
