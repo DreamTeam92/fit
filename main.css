@@ -8772,3 +8772,11 @@ h2.tbl {
 .hover-red:hover path {
   fill: #ff1e5c;
 } ;;;
+
+ul .tick{
+  list-style: none;
+}
+
+ul .tick li:before {
+  content: '✓';
+}
