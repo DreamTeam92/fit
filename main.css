@@ -8773,10 +8773,6 @@ h2.tbl {
   fill: #ff1e5c;
 } ;;;
 
-ul .tick{
-  list-style: none;
-}
-
-ul .tick li:before {
-  content: '✓';
+ul:empty + .empty-state {
+  display: block;
 }
