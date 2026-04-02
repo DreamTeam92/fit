@@ -8782,16 +8782,16 @@ h2.tbl {
   h1.entry-title {
     font-size: 24px;
   }
-  h2.entry-title {
+  h2 {
     font-size: 22px;
   }
-  h3.entry-title {
+  h3 {
     font-size: 20px;
   }
-  h4.entry-title {
+  h4 {
     font-size: 18px;
   }
-  h5.entry-title {
+  h5 {
     font-size: 16px;
   }
 }
