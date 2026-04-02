@@ -8779,19 +8779,19 @@ h2.tbl {
     margin-left: 25px;
     margin-right: 25px;
   }
-  h1 {
+  h1.entry-title {
     font-size: 24px;
   }
-  h2 {
+  h2.entry-title {
     font-size: 22px;
   }
-  h3 {
+  h3.entry-title {
     font-size: 20px;
   }
-  h4 {
+  h4.entry-title {
     font-size: 18px;
   }
-  h5 {
+  h5.entry-title {
     font-size: 16px;
   }
 }
@@ -8799,5 +8799,8 @@ h2.tbl {
 @media (max-width: 767px) {
 .elem-element-a44 .elem-element-a51 .elem-element-a58 {
   font-size: 40px;
+}
+  .elem-6 .elem-element.elem-element-a44 .elem-heading-title {
+    font-size: 40px;
 }
 }
