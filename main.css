@@ -5356,10 +5356,10 @@ ul#footer-sidebar li.widget select {
   .single article {
     padding-top: 15px;
   }
-  .single h1.entry-title {
+  /*.single h1.entry-title {
     font-size: 38px;
     line-height: 44px;
-  }
+  }*/
   .single-post-header-content {
     margin-bottom: 0;
   }
