@@ -8779,6 +8779,21 @@ h2.tbl {
     margin-left: 25px;
     margin-right: 25px;
   }
+  h1 {
+    font-size: 24px;
+  }
+  h2 {
+    font-size: 22px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  h4 {
+    font-size: 18px;
+  }
+  h5 {
+    font-size: 16px;
+  }
 }
 
 @media (max-width: 767px) {
