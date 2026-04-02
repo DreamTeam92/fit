@@ -8773,18 +8773,3 @@ h2.tbl {
   fill: #ff1e5c;
 } ;;;
 
-ul:empty + .empty-state {
-  display: block;
-}
-
-.btn-red {
-  color: #000;
-  background-color: #ff1e5e;
-  border-color: #ff1e5e;
-  border-radius: 7px;
-  padding: 5px 10px;
-}
-
-.white {
-  color: #fff
-}
