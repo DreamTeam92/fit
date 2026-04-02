@@ -8778,7 +8778,13 @@ ul:empty + .empty-state {
 }
 
 .btn-red {
-  color: #fff;
+  color: #000;
   background-color: #ff1e5e;
-  border-color: none;
+  border-color: #ff1e5e;
+  border-radius: 7px;
+  padding: 5px 10px;
+}
+
+.white {
+  color: #fff
 }
