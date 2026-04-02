@@ -3132,39 +3132,6 @@ blockquote:not(.functionbetter-block-pullquote) cite {
   margin: 20px 0;
 }
 
-
-
-@media (min-width: 1020px) and (max-width: 767px) {
-h1 {
-  font-size: 38px;
-  line-height: 38px;
-}
-h2 {
-  font-size: 34px;
-  line-height: 34px;
-}
-h3 {
-  font-size: 32px;
-  line-height: 32px;
-}
-h4 {
-  font-size: 30px;
-}
-h5 {
-  font-size: 28px;
-}
-h6 {
-  font-size: 26px;
-}
-
-
-
-
-
-
-
-
-
 @media only screen and (min-width: 1020px) {
   .alignwide {
     margin-left: -5%;
@@ -3198,7 +3165,7 @@ h5,
 h6 {
   padding: 20px 0;
 }
-/*h1 {
+h1 {
   font-size: 38px;
   line-height: 38px;
 }
@@ -3218,7 +3185,7 @@ h5 {
 }
 h6 {
   font-size: 26px;
-}*/
+}
 em {
   font-style: italic;
 }
