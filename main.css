@@ -8811,7 +8811,11 @@ h2.tbl {
 @media (max-width: 767px) {
   .elem-6 .elem-element.elem-element-a44 .elem-heading-title,
   .elem-6 .elem-element.elem-element-a51 .elem-heading-title,
-  .elem-6 .elem-element.elem-element-a58 .elem-heading-title{
+  .elem-6 .elem-element.elem-element-a58 .elem-heading-title {
     font-size: 36px;
+  }
 }
+
+.white {
+  color: #fff;
 }
