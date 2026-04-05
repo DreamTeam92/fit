@@ -8393,10 +8393,12 @@ ul.elem-icon-list-items.elem-inline-items .elem-inline-item {
 }
 @media (min-width: 768px) {
   .elem-6 .elem-element.elem-element-a35 {
-    width: 70.614%;
+    /*width: 70.614%;*/
+    width: 30%;
   }
   .elem-6 .elem-element.elem-element-a37 {
-    width: 29.386%;
+    /*width: 29.386%;*/
+    width: 70%;
   }
 }
 .elem-7 .elem-element.elem-element-a63 {
