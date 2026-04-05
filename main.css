@@ -8820,8 +8820,12 @@ h2.tbl {
   }
   .service-txt {
     width: 80%;
+  }
 }
-
 .white {
   color: #fff;
+}
+
+.black {
+  color: #000;
 }
