@@ -5264,7 +5264,7 @@ ul#footer-sidebar li.widget select {
 @media screen and (max-width: 1220px) {
   blockquote:not(.functionbetter-block-pullquote) {
     /*font-size: 26px;*/
-    font-size: 12px;
+    font-size: 16px;
     line-height: 28px;
   }
 }
