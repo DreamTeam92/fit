@@ -8201,6 +8201,7 @@ ul.elem-icon-list-items.elem-inline-items .elem-inline-item {
 .elem-6 .elem-element.elem-element-a50 > .elem-widget-container {
   padding: 40px 0;
   background-color: #505cc1;
+  bordere-radius: 20px;
 }
 .elem-6 .elem-element.elem-element-a51 {
   text-align: center;
