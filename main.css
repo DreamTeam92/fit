@@ -4025,18 +4025,18 @@ body a:hover {
   color: #ff1e5c;
 }
 blockquote:not(.functionbetter-block-pullquote) {
-  font-size: 24px;
+  font-size: 16px;
   line-height: 40px;
   font-style: normal;
   font-weight: 700;
-  max-width: 450px;
+  max-width: 95%;
 }
 .single-post blockquote:not(.functionbetter-block-pullquote) {
   margin-right: 0;
 }
 blockquote:not(.functionbetter-block-pullquote):before {
   content: "\201C";
-  font-size: 180px;
+  font-size: 100px;
   line-height: 100%;
   font-family: montserrat, sans-serif, Arial;
   color: #ff1e5c;
@@ -5261,7 +5261,7 @@ ul#footer-sidebar li.widget select {
 }
 @media screen and (max-width: 1220px) {
   blockquote:not(.functionbetter-block-pullquote) {
-    font-size: 17px;
+    font-size: 12px;
     line-height: 28px;
   }
 }
@@ -5457,7 +5457,7 @@ ul#footer-sidebar li.widget select {
   blockquote:not(.functionbetter-block-pullquote):before {
     position: relative;
     left: 0;
-    font-size: 180px;
+    font-size: 100px;
     line-height: 37px;
   }
 }
