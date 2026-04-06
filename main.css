@@ -8829,3 +8829,7 @@ h2.tbl {
 .black {
   color: #000;
 }
+
+.entry-title {
+  text-align: center;
+}
