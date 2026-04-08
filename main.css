@@ -1288,7 +1288,8 @@ div.ppt {
 .section.page-split h2.entry-title {
   text-align: left;
   padding-top: 0;
-  font-size: 80px;
+  /*font-size: 80px;*/
+  font-size: 60px;
 }
 .section .page-desc {
   text-align: center;
