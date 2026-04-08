@@ -2619,7 +2619,8 @@ li.timeline-event:hover .timeline-event-date {
   }
   .section.page-split h2.entry-title {
     max-width: 90%;
-    font-size: 40px;
+    /*font-size: 40px;*/
+    font-size: 30px;
     line-height: 40px;
   }
   .section.page-split .section-title-holder .page-desc {
