@@ -1,13 +1,11 @@
 User-agent: *
-Disallow: /admin/
-Disallow: /cgi-bin/
-Disallow: /wp-admin/
-Disallow: /tmp/
-Disallow: /private/
-Disallow: /login/
-
-# Allow all search engines to access everything else
 Allow: /
 
-# Sitemap location
+# Block sensitive/system folders
+Disallow: /admin/
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /private/
+
+# Sitemap
 Sitemap: https://functionbetter.fit/sitemap.xml
